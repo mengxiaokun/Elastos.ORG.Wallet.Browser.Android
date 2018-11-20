@@ -19,10 +19,10 @@ Web wallet and blockchain:
 .. describe:: https://blockchain-beta.elastos.org/
 
 Testnet address
-.. describe:: Wallet service testnet: 18.179.207.38:8080
-.. describe:: Wallet history testnet: 54.64.220.165:8080
-.. describe:: DID service testnet:    18.179.20.67:8080
-.. describe:: DID history testnet:    54.64.220.165:8081
+.. envvar:: wallet-service-testnet: 18.179.207.38:8080
+.. option:: wallet-history-testnet: 54.64.220.165:8080
+.. guilabel:: did-service-testnet:    18.179.20.67:8080
+.. describe:: did-history-testnet:    54.64.220.165:8081
 
 
 Get Did
