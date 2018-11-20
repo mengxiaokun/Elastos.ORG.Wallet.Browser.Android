@@ -14,14 +14,14 @@ API
 =================================
 using the following api ,we can easyly get a glimps of what is going on in the blockchain.
 
-.. Wallet service testnet: 18.179.207.38:8080
-.. Wallet history testnet: 54.64.220.165:8080
-.. Web wallet and blockchain is
-.. https://wallet-beta.elastos.org/
-.. https://blockchain-beta.elastos.org/
+.. describe:: Wallet service testnet: 18.179.207.38:8080
+.. describe:: Wallet history testnet: 54.64.220.165:8080
+.. describe:: Web wallet and blockchain is
+.. describe:: https://wallet-beta.elastos.org/
+.. describe:: https://blockchain-beta.elastos.org/
 
-.. DID service testnet:    18.179.20.67:8080
-.. DID history testnet:    54.64.220.165:8081
+.. describe:: DID service testnet:    18.179.20.67:8080
+.. describe:: DID history testnet:    54.64.220.165:8081
 
 
 Get Did
