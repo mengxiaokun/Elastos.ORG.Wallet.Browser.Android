@@ -14,14 +14,14 @@ API
 =================================
 using the following api ,we can easyly get a glimps of what is going on in the blockchain.
 
-Wallet service testnet: 18.179.207.38:8080
-Wallet history testnet: 54.64.220.165:8080
-Web wallet and blockchain is
-https://wallet-beta.elastos.org/
-https://blockchain-beta.elastos.org/
+.. Wallet service testnet: 18.179.207.38:8080
+.. Wallet history testnet: 54.64.220.165:8080
+.. Web wallet and blockchain is
+.. https://wallet-beta.elastos.org/
+.. https://blockchain-beta.elastos.org/
 
-DID service testnet:    18.179.20.67:8080
-DID history testnet:    54.64.220.165:8081
+.. DID service testnet:    18.179.20.67:8080
+.. DID history testnet:    54.64.220.165:8081
 
 
 Get Did
@@ -100,7 +100,7 @@ Get current logined user address.
    :Ref: ElastosWallet.getAddress()
 
 
-Get Balance
+Get balance
 -----------------------------------------
 Get current logined user balance.
 
@@ -161,12 +161,12 @@ Send a transfer to id-chain.
         "amount": 10000,
         "toAddress": "EeDUy6TmGSFfVxXVzMpVkxLhqwCqujE1WL",
         "memo": "xxx",
-        "info": "sss",
+        "info": "sss"
       }
 
-      #amount: [required] transfer amount
+      #amount: [required] transfer amount. units is sela, 1 ela = 100000000 sela.
       #toAddress: [required] transfer to
-      #memo: [optional] note which should save on chain.
+      #memo: [optional] note which should save on id-chain.
       #info: [optional] note which is saved in local.
 
    **Example response**:
