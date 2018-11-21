@@ -16,14 +16,14 @@ using the following api ,we can easyly get a glimps of what is going on in the b
 
 Web wallet and blockchain:
 
-.. sourcecode::
+.. sourcecode:: http
 
    https://wallet-beta.elastos.org/
    https://blockchain-beta.elastos.org/
 
 Testnet address
 
-.. sourcecode::
+.. sourcecode:: http
 
    wallet-service-testnet: 18.179.207.38:8080
    wallet-history-testnet: 54.64.220.165:8080
