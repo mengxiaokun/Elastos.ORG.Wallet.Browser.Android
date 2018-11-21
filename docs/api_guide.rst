@@ -15,14 +15,14 @@ API
 using the following api ,we can easyly get a glimps of what is going on in the blockchain.
 
 Web wallet and blockchain:
-.. describe:: https://wallet-beta.elastos.org/
-.. describe:: https://blockchain-beta.elastos.org/
+.. |br|  https://wallet-beta.elastos.org/
+.. |br| https://blockchain-beta.elastos.org/
 
 Testnet address
-.. envvar:: wallet-service-testnet: 18.179.207.38:8080
-.. option:: wallet-history-testnet: 54.64.220.165:8080
-.. guilabel:: did-service-testnet:    18.179.20.67:8080
-.. describe:: did-history-testnet:    54.64.220.165:8081
+.. |br| wallet-service-testnet: 18.179.207.38:8080
+.. |br| wallet-history-testnet: 54.64.220.165:8080
+.. |br| did-service-testnet:    18.179.20.67:8080
+.. |br| did-history-testnet:    54.64.220.165:8081
 
 
 Get Did
@@ -187,8 +187,8 @@ Send a transfer to id-chain.
    :statuscode 10001: process error
 
    :Ref: http://did-service-testnet/api/1/createTx
-         ElastosWalletSign.generateRawTransaction()
-         http://did-service-testnet/api/1/sendRawTx
+.. |br|         ElastosWalletSign.generateRawTransaction()
+.. |br|         http://did-service-testnet/api/1/sendRawTx
 
 
 Get transaction by transaction id
