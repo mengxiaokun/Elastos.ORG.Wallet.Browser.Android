@@ -17,12 +17,14 @@ using the following api ,we can easyly get a glimps of what is going on in the b
 Web wallet and blockchain:
 
 .. note::
+
    https://wallet-beta.elastos.org/
    https://blockchain-beta.elastos.org/
 
 Testnet address
 
 .. note::
+
    wallet-service-testnet: 18.179.207.38:8080
    wallet-history-testnet: 54.64.220.165:8080
    did-service-testnet:    18.179.20.67:8080
