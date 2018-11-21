@@ -16,14 +16,14 @@ using the following api ,we can easyly get a glimps of what is going on in the b
 
 Web wallet and blockchain:
 
-.. note::
+.. sourcecode::
 
    https://wallet-beta.elastos.org/
    https://blockchain-beta.elastos.org/
 
 Testnet address
 
-.. note::
+.. sourcecode::
 
    wallet-service-testnet: 18.179.207.38:8080
    wallet-history-testnet: 54.64.220.165:8080
@@ -192,9 +192,9 @@ Send a transfer to id-chain.
    :statuscode 500:   internal error
    :statuscode 10001: process error
 
-   :Ref: http://did-service-testnet/api/1/createTx
-   :Ref: ElastosWalletSign.generateRawTransaction()
-   :Ref: http://did-service-testnet/api/1/sendRawTx
+   :Ref: http://did-service-testnet/api/1/createTx;
+         ElastosWalletSign.generateRawTransaction();
+         http://did-service-testnet/api/1/sendRawTx
 
 
 Get transaction by transaction id
@@ -249,8 +249,7 @@ Get all transactions.
 -----------------------------------------
 Check out all transactions of logined user.
 
-.. http:get:: http://127.0.0.1:port/api/v1/getAllTxs[?][pageNum=(number:`page number`)]
-                                                    [&][pageSize=(number:`page size`)]
+.. http:get:: http://127.0.0.1:port/api/v1/getAllTxs[?][pageNum=(number:`page number`)][&][pageSize=(number:`page size`)]
 
    **Parameter**
      :pageNum:  [optional] page number, if not set, use 0.
