@@ -25,10 +25,10 @@ Testnet address
 
 .. sourcecode:: http
 
-   wallet-service-testnet: 18.179.207.38:8080
-   wallet-history-testnet: 54.64.220.165:8080
-   did-service-testnet:    18.179.20.67:8080
-   did-history-testnet:    54.64.220.165:8081
+   wallet-service-testnet: https://hw-ela-api-test.elastos.org
+   wallet-history-testnet: http://history-ela-api-test-lb-476898301.ap-northeast-1.elb.amazonaws.com
+   did-service-testnet:    https://hw-did-api-test.elastos.org
+   did-history-testnet:    http://history-did-api-test-lb-249512150.ap-northeast-1.elb.amazonaws.com
 
 
 Get Did
@@ -142,7 +142,7 @@ Get current logined user balance.
    :statuscode 500:   internal error
    :statuscode 10001: process error
 
-   :Ref: http://did-service-testnet/api/1/balance/(string:`public_address`)
+   :Ref: did-service-testnet/api/1/balance/(string:`public_address`)
 
 
 Send transfer
@@ -192,9 +192,9 @@ Send a transfer to id-chain.
    :statuscode 500:   internal error
    :statuscode 10001: process error
 
-   :Ref: http://did-service-testnet/api/1/createTx;
+   :Ref: did-service-testnet/api/1/createTx;
          ElastosWalletSign.generateRawTransaction();
-         http://did-service-testnet/api/1/sendRawTx
+         did-service-testnet/api/1/sendRawTx
 
 
 Get transaction by transaction id
@@ -242,7 +242,7 @@ Check out a transaction.
    :statuscode 500:   internal error
    :statuscode 10001: process error
 
-   :Ref: http://did-service-testnet/api/1/tx/(string:`txid`)
+   :Ref: did-service-testnet/api/1/tx/(string:`txid`)
 
 
 Get all transactions.
@@ -311,7 +311,7 @@ Check out all transactions of logined user.
    :statuscode 500:   internal error
    :statuscode 10001: process error
 
-   :Ref: http://did-history-testnet/history/(string:`public address`)?pageNum=(number:`page num`)&pageSize=(number:`page size`)
+   :Ref: did-history-testnet/api/1/history/(string:`public address`)?pageNum=(number:`page num`)&pageSize=(number:`page size`)
 
 
 Set DID information
